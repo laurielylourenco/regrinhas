@@ -33,7 +33,7 @@ export default [
         correctAnswerIndex: 1
     },
     {
-        text: 'Resolva a equação de primeiro grau: $$ 2x - 8 = 4 $$',
+        text: 'Resolva a equação de primeiro grau: $$2x - 8 = 4$$',
         category: 'Ágebra',
         options: [
            { text: 'x = 4', correct: false },

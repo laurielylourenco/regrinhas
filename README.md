@@ -1,35 +1,48 @@
-# .
+# 🧮 Regrinhas
 
-This template should help get you started developing with Vue 3 in Vite.
+Um **quiz interativo focado em matemática**, criado para ajudar no aprendizado pelo reforço.
+O projeto vai também implementar **mecanismos de repetição espaçada** e diferentes variações das questões, ajudando a reforçar o conhecimento de maneira eficiente.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Tecnologias
 
-## Customize configuration
+* [Vue 3](https://vuejs.org/)
+* [Vite](https://vite.dev/)
+* [ESLint](https://eslint.org/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+---
 
-```sh
+## ⚙️ Configuração do Projeto
+
+### Instalação das dependências
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Rodar o projeto em modo de desenvolvimento (hot-reload)
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Gerar build para produção
 
-```sh
+```bash
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Analisar e corrigir problemas com o ESLint
 
-```sh
+```bash
 npm run lint
 ```
+
+---
+
+## 📌 Próximos Passos
+
+* [ ] Adicionar mais questões de matemática.
+* [ ] Implementar sistema de progresso baseado em repetição espaçada.
