@@ -16,8 +16,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        skipWaiting: true,
+        clientsClaim: true,
+        additionalManifestEntries: [{ url: '/sw-update.js', revision: null }],
       },
-      includeAssets: ['favicon.ico', 'icons/*.svg'],
+      includeAssets: ['favicon.ico', 'icons/*.svg', 'sw-update.js'],
       manifest: {
         name: 'Regrinhas - Quiz de Matemática',
         short_name: 'Regrinhas',
@@ -26,6 +29,7 @@ export default defineConfig({
         background_color: '#0f172a',
         display: 'standalone',
         start_url: '/',
+        version: '1.1.1',
         icons: [
           {
             src: 'icons/icon-192.svg',
